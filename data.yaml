@@ -1,0 +1,25 @@
+path: /home/achintya-trn0175/Desktop/training/yolov10/data_idd_train_struct  # dataset root dir
+train: /home/achintya-trn0175/Desktop/training/yolov10/data_idd_train_struct/train.txt
+val:   /home/achintya-trn0175/Desktop/training/yolov10/data_idd_train_struct/data_idd_val_struct/val.txt # validation images 
+test:  #optional
+
+nc: 12  
+classes: ["auto",  
+        "person", 
+        "bicycle",  
+        "car", 
+        "motorbike", 
+        "bus",
+        "truck", 
+        "trafficlight", 
+        "stopsign", 
+        "cat", 
+        "dog",
+        "cow",] 
+
+batch_size: 4
+#img_size: 640 # Adjust image size based on your needs
+#epochs: 100  # Number of training epochs (adjust based on dataset size and complexity)
+#workers: 4  # Number of data loader worker threads (adjust based on machine resources)
+learning_rate: 0.001 
+
